@@ -13,3 +13,5 @@ class CNABData(models.Model):
     hour = models.CharField(max_length=10)
     store_owner = models.CharField(max_length=50)
     store_name = models.CharField(max_length=50)
+
+

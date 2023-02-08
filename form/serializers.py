@@ -10,3 +10,6 @@ class CNABDataSerializer(serializers.ModelSerializer):
     class Meta:
         model = CNABData
         fields = ('id', 'type', 'data', 'value', 'cpf', 'card', 'hour', 'store_owner', 'store_name')
+
+class Store(serializers.Serializer):
+    store_name = serializers.CharField()

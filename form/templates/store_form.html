@@ -1,0 +1,13 @@
+<table>
+    <tr>
+        <th>Store Name</th>
+        <th>Total Balance</th>
+    </tr>
+    {% for store_name, value in store_balance.items %}
+    <tr>
+        <th>{{store_name}}</th>
+        <th>{{value}}</th>
+    </tr>
+
+    {% endfor %}
+</table>
